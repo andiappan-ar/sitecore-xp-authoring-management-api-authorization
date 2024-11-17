@@ -31,10 +31,11 @@ namespace CustomIdentity.AuthoringMangement.Controllers
             string accessToken = await HttpContext.GetTokenAsync("access_token");
             string refreshToken = await HttpContext.GetTokenAsync("refresh_token");
 
-            return Content($"Current user: <span id=\"UserIdentityName\">{User.Identity.Name ?? "anonymous"}</span><br/>" +
-                $"<div>Access token: {accessToken}</div><br/>" +
-                $"<div>Refresh token: {refreshToken}</div><br/>"
-                , "text/html");
+            ViewBag.UserName = User.Identity.Name ?? "anonymous";
+            ViewBag.AccessToken = accessToken; // Replace with your actual token value
+            ViewBag.RefreshToken = refreshToken; // Replace with your actual token value
+
+            return View();           
         }
 
         [Route("/callapi")]

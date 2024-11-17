@@ -70,7 +70,10 @@ namespace CustomIdentity.AuthoringMangement
                    
                 });
 
-           
+            // Register HttpClient for Dependency Injection
+            services.AddHttpClient();
+
+            
 
 
         }

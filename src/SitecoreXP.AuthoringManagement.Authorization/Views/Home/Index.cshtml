@@ -1,0 +1,32 @@
+﻿@{
+    Layout = "_Layout";
+}
+
+<div class="container mt-4">
+    <!-- Title and Description Section -->
+    <div class="jumbotron bg-light p-4 mb-4">
+        <h1 class="display-4">User Token Details</h1>
+        <p class="lead">This page displays the current user information along with their access and refresh tokens. The data is retrieved securely and displayed in a readable format.</p>
+    </div>
+
+    <!-- Card for displaying user data -->
+    <div class="card">
+        <div class="card-header">
+            <h5 class="card-title">User Information</h5>
+        </div>
+        <div class="card-body">
+            <div class="mb-3">
+                <strong class="text-muted">Current User:</strong>
+                <p id="UserIdentityName" class="form-control-plaintext">@ViewBag.UserName</p>
+            </div>
+            <div class="mb-3">
+                <strong class="text-muted">Access Token:</strong>
+                <p class="form-control-plaintext">@ViewBag.AccessToken</p>
+            </div>
+            <div class="mb-3">
+                <strong class="text-muted">Refresh Token:</strong>
+                <p class="form-control-plaintext">@ViewBag.RefreshToken</p>
+            </div>
+        </div>
+    </div>
+</div>
