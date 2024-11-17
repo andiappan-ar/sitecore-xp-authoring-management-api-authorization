@@ -1,5 +1,5 @@
 
-# Module : SitecoreXP AuthoringManagement Authorization 
+# Module : SitecoreXP Authorization for "Sitecore Authoring and Management GraphQL API"  
 How to Authenticate and Access Sitecore Authoring and Management GraphQL API Using Bearer Tokens
 
 ## 📝 Introduction
