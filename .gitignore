@@ -1,0 +1,57 @@
+# Visual Studio settings
+.vs/
+.vscode/
+
+# User-specific files
+*.rsuser
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# Auto-generated files
+Generated\
+
+# Build results
+bin/
+obj/
+out/
+
+# Logs
+*.log
+logs/
+
+# Packages
+*.nupkg
+*.snupkg
+packages/
+
+# Debug and Release folders
+[Dd]ebug/
+[Rr]elease/
+x64/
+x86/
+
+# OS-generated files
+.DS_Store
+Thumbs.db
+ehthumbs.db
+
+# Rider project files
+.idea/
+
+# DotNet CLI
+*.lock.json
+project.lock.json
+artifacts/
+
+# IIS config files
+*.vspscc
+appsettings.development.json
+
+# Secret management
+secrets.json
+.env
+
+# Docker files
+docker-compose.override.yml

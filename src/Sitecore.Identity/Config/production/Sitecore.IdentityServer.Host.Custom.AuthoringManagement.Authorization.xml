@@ -1,0 +1,40 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Settings>
+	<Sitecore>		
+		<IdentityServer>
+			<Clients>
+				<AuthoringManagementAuthorizationClient>
+					<ClientId>AuthoringManagement.Authorization</ClientId>
+					<ClientName>AuthoringManagement.Authorization</ClientName>
+					<AccessTokenType>0</AccessTokenType>
+					<AllowOfflineAccess>true</AllowOfflineAccess>
+					<AlwaysIncludeUserClaimsInIdToken>true</AlwaysIncludeUserClaimsInIdToken>
+					<AccessTokenLifetimeInSeconds>120</AccessTokenLifetimeInSeconds>
+					<IdentityTokenLifetimeInSeconds>120</IdentityTokenLifetimeInSeconds>
+					<AllowAccessTokensViaBrowser>true</AllowAccessTokensViaBrowser>
+					<RequireConsent>false</RequireConsent>
+					<RequireClientSecret>false</RequireClientSecret>
+					<AllowedGrantTypes>
+						<AllowedGrantType1>client_credentials</AllowedGrantType1>
+						<AllowedGrantType2>hybrid</AllowedGrantType2>
+					</AllowedGrantTypes>
+					<RedirectUris>
+						<RedirectUri1>{AllowedCorsOrigin}/</RedirectUri1>
+					</RedirectUris>
+					<PostLogoutRedirectUris>
+						<PostLogoutRedirectUri1>{AllowedCorsOrigin}/signout-callback-oidc</PostLogoutRedirectUri1>
+					</PostLogoutRedirectUris>
+					<AllowedCorsOrigins>
+						<AllowedCorsOriginsGroup1>https://localhost:44360</AllowedCorsOriginsGroup1>
+					</AllowedCorsOrigins>
+					<AllowedScopes>
+						<AllowedScope1>openid</AllowedScope1>
+						<AllowedScope2>sitecore.profile</AllowedScope2>
+						<AllowedScope3>sitecore.profile.api</AllowedScope3>
+					</AllowedScopes>
+					<UpdateAccessTokenClaimsOnRefresh>true</UpdateAccessTokenClaimsOnRefresh>
+				</AuthoringManagementAuthorizationClient>
+			</Clients>
+		</IdentityServer>
+	</Sitecore>
+</Settings>

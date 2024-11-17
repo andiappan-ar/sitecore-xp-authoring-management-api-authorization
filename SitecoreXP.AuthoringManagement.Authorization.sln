@@ -1,0 +1,52 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.5.33516.290
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SitecoreXP.AuthoringManagement.Authorization", "SitecoreXP.AuthoringManagement.Authorization\SitecoreXP.AuthoringManagement.Authorization.csproj", "{7CE80AF1-C079-412A-B6F1-F82D7A9CC0BD}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Sitecore.Platform", "Sitecore.Platform", "{7D685BF4-B9D1-4FE0-BEC7-4A9268A027A9}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Sitecore.Identity", "Sitecore.Identity", "{1ACD7D57-8AF0-4986-8FA9-E04A1874590B}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "App_config", "App_config", "{94F0E1A6-93CE-4ED2-9A2F-D5456032012A}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Include", "Include", "{9BD2C84A-01DA-466F-B993-1F276CC12CBC}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Config", "Config", "{F8F1B6B8-A1B5-46FC-B73E-5656B99E2219}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Production", "Production", "{BCE75D4E-A798-49D6-B444-82E1A9D00409}"
+	ProjectSection(SolutionItems) = preProject
+		src\Sitecore.Identity\Config\production\Sitecore.IdentityServer.Host.Custom.AuthoringManagement.Authorization.xml = src\Sitecore.Identity\Config\production\Sitecore.IdentityServer.Host.Custom.AuthoringManagement.Authorization.xml
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "AuthoringManagement.Authorization", "AuthoringManagement.Authorization", "{8C6902BB-9211-4826-A62D-223E596C7FD0}"
+	ProjectSection(SolutionItems) = preProject
+		src\Sitecore.Platform\App_config\Include\AuthoringManagement.Authorization\zzz.Custom.AuthoringAPI.Enabler.config = src\Sitecore.Platform\App_config\Include\AuthoringManagement.Authorization\zzz.Custom.AuthoringAPI.Enabler.config
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{7CE80AF1-C079-412A-B6F1-F82D7A9CC0BD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7CE80AF1-C079-412A-B6F1-F82D7A9CC0BD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7CE80AF1-C079-412A-B6F1-F82D7A9CC0BD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7CE80AF1-C079-412A-B6F1-F82D7A9CC0BD}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{94F0E1A6-93CE-4ED2-9A2F-D5456032012A} = {7D685BF4-B9D1-4FE0-BEC7-4A9268A027A9}
+		{9BD2C84A-01DA-466F-B993-1F276CC12CBC} = {94F0E1A6-93CE-4ED2-9A2F-D5456032012A}
+		{F8F1B6B8-A1B5-46FC-B73E-5656B99E2219} = {1ACD7D57-8AF0-4986-8FA9-E04A1874590B}
+		{BCE75D4E-A798-49D6-B444-82E1A9D00409} = {F8F1B6B8-A1B5-46FC-B73E-5656B99E2219}
+		{8C6902BB-9211-4826-A62D-223E596C7FD0} = {9BD2C84A-01DA-466F-B993-1F276CC12CBC}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {37A0A3C9-FDFD-4D56-BC95-80F2B32AE5D1}
+	EndGlobalSection
+EndGlobal
