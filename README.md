@@ -8,9 +8,7 @@ This project is a working sample demonstrating how to obtain an access token for
 
 I referred to this article for the implementation. https://doc.sitecore.com/xp/en/developers/104/sitecore-experience-manager/use-bearer-tokens-in-client-applications.html.
 
-## 📝 Explanation
-
-### Project structure 
+## Project structure 
 
 ![image](https://github.com/user-attachments/assets/b7211d03-aed0-46de-8d1f-dbadc6f3b4f3)
 
